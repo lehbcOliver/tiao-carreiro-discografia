@@ -1,0 +1,15 @@
+.link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--gray-100);
+  border: 1px solid var(--gray-100);
+  padding: 0.4rem;
+  border-radius: 30px;
+}
+
+.link a:hover {
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+}

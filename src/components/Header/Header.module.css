@@ -1,0 +1,19 @@
+.header {
+  width: 55rem;
+  height: 8rem;
+  margin: auto;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  margin-left: 2.5rem;
+}
+
+.header p {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-right: 2.5rem;
+}

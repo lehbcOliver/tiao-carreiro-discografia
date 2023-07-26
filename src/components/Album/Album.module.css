@@ -1,0 +1,206 @@
+.album {
+  width: 55rem;
+  height: 80vh;
+  margin: auto;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.albumContent {
+  height: 72vh;
+  overflow-y: auto;
+}
+
+.albumContent::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.albumContent {
+  overflow: -moz-scrollbars-none;
+}
+
+.albumContent {
+  -ms-overflow-style: none;
+}
+
+.add {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.add input {
+  border: none;
+  border-radius: 30px;
+  height: 2.5rem;
+  padding-left: 1rem;
+}
+
+.add input:focus {
+  outline: 1px solid var(--gray-100);
+}
+
+.add input:first-child {
+  width: 30.5rem;
+
+}
+
+.add input:last-child {
+  width: 11rem;
+  margin-right: 0.5rem;
+}
+
+.add button {
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 30px;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.add button:hover {
+  background: var(--blue-dark);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.title p {
+  font-weight: bold;
+}
+
+.title button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  border: none;
+  padding: 0.3rem;
+  font-size: 0.875rem;
+  border-radius: 30px;
+  background: var(--gray-200);
+  color: var(--white);
+}
+
+.title button svg {
+  margin-right: 0.4rem;
+}
+
+.title button:hover {
+  background: var(--blue);
+}
+
+.title div {
+  display: flex;
+}
+
+.title button:first-child {
+  margin-right: 0.5rem;
+
+}
+
+.title button:first-child:hover {
+  background: var(--red-light);
+}
+
+.trackOpen {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  justify-content: end;
+}
+
+.trackClose {
+  display: none;
+
+}
+
+.trackOpen input {
+  font-size: 0.875rem;
+  padding: 0.3rem;
+  border: none;
+  margin-right: 0.4rem;
+  border-radius: 20px;
+  padding-left: 1rem;
+}
+
+.trackOpen input:nth-child(odd) {
+  width: 6rem;
+}
+
+.trackOpen input:nth-child(2) {
+  width: 20rem;
+}
+
+.trackOpen button {
+  width: 8rem;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 20px;
+  background: var(--gray-200);
+  color: var(--white);
+}
+
+.trackOpen button:hover {
+  background: var(--blue);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+table button {
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  color: var(--white);
+  background: var(--red);
+  font-size: 0.875rem;
+}
+
+table button:hover {
+  background: var(--red-light);
+}
+
+table th {
+  text-align: left;
+  padding: 0.2rem 0;
+
+}
+
+table td:first-child {
+  width: 2.5rem;
+}
+
+table td:last-child {
+  width: 4rem;
+}
+
+table td:nth-child(3n) {
+  width: 8rem;
+}
+
+table td {
+  text-align: left;
+  padding: 0.2rem 0;
+  font-weight: 100;
+  color: var(--gray-100);
+}
+
+.footer {
+  height: 2.5rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 22rem;
+}

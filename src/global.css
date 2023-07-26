@@ -1,0 +1,41 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #3c3b3c;
+  --gray-200: #808080;
+  --gray-300: #262626;
+  --gray-400: #1a1a1a;
+  --gray-500: #0d0d0d;
+  --blue: #4a90e2;
+  --blue-dark: #0075FF;
+  --red: #e61919;
+  --red-light: #ff4040;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-100);
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  min-width: 322px;
+}
+
+body,
+input,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container {
+  background: url('./assets/background.png') no-repeat;
+  background-size: 100%;
+  width: 67.5rem;
+  height: 100vh;
+  margin: auto;
+}

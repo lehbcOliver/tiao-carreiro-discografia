@@ -1,0 +1,106 @@
+.home {
+  width: 55rem;
+  height: 80vh;
+  min-height: 80vh;
+  margin: auto;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.homeContent {
+  height: 72vh;
+  overflow-y: auto;
+}
+
+.homeContent::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.homeContent {
+  overflow: -moz-scrollbars-none;
+}
+
+.homeContent {
+  -ms-overflow-style: none;
+}
+
+.home p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home .title {
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+table th {
+  text-align: left;
+  padding: 0.2rem 0;
+
+}
+
+table td:first-child {
+  width: 2.5rem;
+}
+
+table td:last-child {
+  width: 4rem;
+}
+
+table td {
+  text-align: left;
+  padding: 0.2rem 0;
+  font-weight: 100;
+  color: var(--gray-100);
+}
+
+.footer {
+  position: absolute;
+  bottom: 3rem;
+  right: 22rem;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.search div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search label {
+  font-size: 0.875rem;
+  color: var(--gray-100);
+  margin-bottom: 0.5rem;
+}
+
+.search input {
+  width: 40rem;
+  height: 2.5rem;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+}
+
+.search button {
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 30px;
+  border: none;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.search button:hover {
+  background: var(--blue-dark);
+}
